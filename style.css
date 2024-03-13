@@ -1,0 +1,267 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.first {
+    margin-right: 70px; color: white;
+}
+
+p {
+    margin-right: 65px;
+}
+
+hr.a {border: 2px solid yellow;
+}
+hr {border: 1px solid yellow;
+}
+
+h.link {background-color: rgb(44, 44, 141); 
+    margin-right: 80px; 
+    color: red; 
+    text-shadow: 2px 2px 2px black; 
+    margin-left: 430px;
+}
+h.link2 {
+    background-color: rgb(44, 44, 141); 
+    color: red;
+    margin-right: 210px ; 
+    text-shadow: 2px 2px 2px black;
+}
+
+img.logo { 
+    height: 120px; 
+    width: 120px; 
+    margin-top: 30px; 
+    margin-left: 30px; 
+    border-radius: 150px; 
+    margin-bottom: 30px; 
+    animation: spin 2s 1; 
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg);}
+    100% { transform: rotate(360deg);}
+}
+
+img.gpp {
+    background-color: white; 
+    height: 500px; 
+    width: 900px;
+    margin-left: 50px; 
+    margin-top: 25px; 
+    border-radius: 100px; 
+    box-shadow: 10px 10px 10px ;
+}
+
+img.dandp {
+    margin-top: 10px; 
+    border: 2px solid yellow; 
+    height: 500px; 
+    width: 250px;
+    margin-right: 25px
+}
+
+h4 {
+    color: white;
+}
+
+h1{
+    color: rgb(255, 0, 0);
+}
+
+nav { background-color: rgb(37, 65, 175); 
+    color: white;
+    float: left;
+    width: 200px;
+    height: auto;
+}
+
+.dropbtn {
+    background-color: white;
+    color: grey;
+    cursor: pointer;
+    height: 30px;
+    width: 220px;
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdowna {
+    position: relative;
+    display: inline-block;
+}.dropdownb {
+    position: relative;
+    display: inline-block;
+}.dropdownc {
+    position: relative;
+    display: inline-block;
+}.dropdownd {
+    position: relative;
+    display: inline-block;
+}.dropdowne {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: rgb(37, 65, 175);
+    z-index: 1;
+}
+.dropdown-contenta {
+    display: none;
+    position: absolute;
+    left: 148px;
+    bottom: 1px;
+    background-color: rgb(44, 44, 141);
+    z-index: 1;
+    width: 150px;
+}.dropdown-contentc {
+    display: none;
+    position: absolute;
+    left: 103px;
+    bottom: 1px;
+    background-color: rgb(44, 44, 141);
+    z-index: 1;
+    width: 150px;
+}.dropdown-contentd {
+    display: none;
+    position: absolute;
+    left: 100px;
+    bottom: 1px;
+    background-color: rgb(44, 44, 141);
+    z-index: 1;
+    width: 150px;}
+.dropdown-contente {
+    display: none;
+    position: absolute;
+    left: 123px;
+    bottom: 1px;
+    background-color: rgb(44, 44, 141);
+    z-index: 1;
+    width: 150px;
+}.dropdown-contentb {
+    display: none;
+    position: absolute;
+    left: 68px;
+    bottom: 1px;
+    background-color: rgb(44, 44, 141);
+    z-index: 1;
+    width: 150px;
+}
+
+.dropdown-content a {
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+}
+.dropdown-contenta a {
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+}.dropdown-contentb a  {
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+}.dropdown-contentc a  {
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+}.dropdown-contentd a  {
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+}.dropdown-contente a  {
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.dropdown-content a:hover  {
+    background-color: white;
+    color: black;
+}
+.dropdown-contenta a:hover {
+    background-color: white;
+    color: black;
+}.dropdown-contentb a:hover  {
+    background-color: white;
+    color: black;
+}.dropdown-contentc a:hover  {
+    background-color: white;
+    color: black;
+}.dropdown-contentd a:hover  {
+    background-color: white;
+    color: black;
+}.dropdown-contente a:hover  {
+    background-color: white;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content  {
+    display: block;
+}.dropdowna:hover .dropdown-contenta  {
+    display: block;
+}.dropdownb:hover .dropdown-contentb  {
+    display: block;
+}.dropdownc:hover .dropdown-contentc  {
+    display: block;
+}.dropdownd:hover .dropdown-contentd  {
+    display: block;
+}.dropdowne:hover .dropdown-contente  {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: white;
+}
+.dropdowna:hover {
+    background-color: rgb(44, 44, 141);
+    color: white;
+}.dropdownb:hover {
+    background-color: rgb(44, 44, 141);
+    color: white;
+}.dropdownc:hover {
+    background-color: rgb(44, 44, 141);
+    color: white;
+}.dropdownd:hover {
+    background-color: rgb(44, 44, 141);
+    color: white;
+}.dropdowne:hover {
+    background-color: rgb(44, 44, 141);
+    color: white;
+}
+
+div.DOWNLOAD  {
+    float: left; 
+    background-color: white;
+    margin-left: 100px;
+    color: black;
+    margin-top: 25px;
+    border: 3px solid rgb(55, 84, 202); 
+    border-right: 3px solid rgb(231, 222, 212);
+    width: 500px;
+    height: 500px;
+    border-radius: 25px;
+}
+div.Notice  {
+    float: right; 
+    margin-right: 100px;
+    margin-top: 25px;
+    border: 3px solid rgb(55, 84, 202); 
+    border-left: 3px solid rgb(231, 222, 212);
+    width: 500px;
+    height: 500px;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+}
+h3 {
+    color: black;
+}
